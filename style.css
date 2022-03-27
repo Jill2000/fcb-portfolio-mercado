@@ -26,6 +26,11 @@ h1,h2{
 img {
 	height: 250px;
 	width: 250px;
+
+	border-color: blue;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 200px; /*or 50% para mahimong circle*/
 }
 
 /*id-selector = #idname*/
@@ -55,6 +60,17 @@ img {
 	align-items: center;
 	justify-content: center;
 }
+#aboutme {
+	/*vh = viewport height - measurement based on the height of the web page and the
+	device youre currently viewing the page*/
+	height: 100vh;
+	/*center the contents of #gallery section horizontally and vertically using
+	flex.*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
 
 ul {
 	list-style: none;
@@ -73,8 +89,16 @@ h2 {
 	padding: 25px;
 	margin: 20px;
 	height: 200px;
-	/*the widthe of this element is at 75% of its parent element or the element
+	/*the width of this element is at 75% of its parent element or the element
 	that contains*/
+	width: 75%;
+}
+
+.abt{
+	border: 5px solid #f2f2f2;
+	padding: 25px;
+	margin: 20px;
+	height:  800px;
 	width: 75%;
 }
 
